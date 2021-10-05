@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dL:\FPGA_Proj\My_GCD\simulation\modelsim
+vgcd
+!i10b 1
+!s100 g;PV:TO`IXgF[<H89C6B52
+Io1[hPjU;H;ZZ::dRahM:U0
+VU6I2EUOm<B<GGHH?m^bPb3
+Z1 dL:\FPGA_Proj\My_GCD\simulation\modelsim
+w1545638098
+8L:/FPGA_Proj/My_GCD/rtl/gcd.v
+FL:/FPGA_Proj/My_GCD/rtl/gcd.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1545639170.804000
+!s107 L:/FPGA_Proj/My_GCD/rtl/gcd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+L:/FPGA_Proj/My_GCD/rtl|L:/FPGA_Proj/My_GCD/rtl/gcd.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+L:/FPGA_Proj/My_GCD/rtl -O0
+vgcd_control
+IRM_BbMhjLXo_PW3D^VkZa2
+VHA^k8d1:11NH_>m__TDja0
+R1
+w1545636565
+8L:/FPGA_Proj/My_GCD/rtl/gcd_control.v
+FL:/FPGA_Proj/My_GCD/rtl/gcd_control.v
+L0 30
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ULSHmkWfjXH;CGXUm=_5O2
+!s85 0
+!s108 1545639170.704000
+!s107 L:/FPGA_Proj/My_GCD/rtl/gcd_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+L:/FPGA_Proj/My_GCD/rtl|L:/FPGA_Proj/My_GCD/rtl/gcd_control.v|
+!s101 -O0
+vgcd_datapath
+IIc226jDKMFCz4HBhA5NRe0
+VJKHilPQaICRkl8JU7cl]K1
+R1
+w1544516861
+8L:/FPGA_Proj/My_GCD/rtl/gcd_datapath.v
+FL:/FPGA_Proj/My_GCD/rtl/gcd_datapath.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 >DYVZ:=PzL?^<eLCK^6gL3
+!s85 0
+!s108 1545639170.453000
+!s107 L:/FPGA_Proj/My_GCD/rtl/gcd_datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+L:/FPGA_Proj/My_GCD/rtl|L:/FPGA_Proj/My_GCD/rtl/gcd_datapath.v|
+!s101 -O0

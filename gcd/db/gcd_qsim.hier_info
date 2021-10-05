@@ -1,0 +1,95 @@
+|gcd
+clk => clk~0.IN2
+rst_n => rst_n~0.IN2
+xin[0] => xin[0]~3.IN1
+xin[1] => xin[1]~2.IN1
+xin[2] => xin[2]~1.IN1
+xin[3] => xin[3]~0.IN1
+yin[0] => yin[0]~3.IN1
+yin[1] => yin[1]~2.IN1
+yin[2] => yin[2]~1.IN1
+yin[3] => yin[3]~0.IN1
+go => go~0.IN1
+gcdreg[0] <= gcd_datapath:U1.gcdreg
+gcdreg[1] <= gcd_datapath:U1.gcdreg
+gcdreg[2] <= gcd_datapath:U1.gcdreg
+gcdreg[3] <= gcd_datapath:U1.gcdreg
+
+
+|gcd|gcd_datapath:U1
+clk => gcdreg[0]~reg0.CLK
+clk => gcdreg[1]~reg0.CLK
+clk => gcdreg[2]~reg0.CLK
+clk => gcdreg[3]~reg0.CLK
+clk => yreg[0].CLK
+clk => yreg[1].CLK
+clk => yreg[2].CLK
+clk => yreg[3].CLK
+clk => xreg[0].CLK
+clk => xreg[1].CLK
+clk => xreg[2].CLK
+clk => xreg[3].CLK
+rst_n => gcdreg[0]~reg0.ACLR
+rst_n => gcdreg[1]~reg0.ACLR
+rst_n => gcdreg[2]~reg0.ACLR
+rst_n => gcdreg[3]~reg0.ACLR
+rst_n => xreg[0].ACLR
+rst_n => xreg[1].ACLR
+rst_n => xreg[2].ACLR
+rst_n => xreg[3].ACLR
+rst_n => yreg[0].ACLR
+rst_n => yreg[1].ACLR
+rst_n => yreg[2].ACLR
+rst_n => yreg[3].ACLR
+xin[0] => x[0].DATAB
+xin[1] => x[1].DATAB
+xin[2] => x[2].DATAB
+xin[3] => x[3].DATAB
+yin[0] => y[0].DATAB
+yin[1] => y[1].DATAB
+yin[2] => y[2].DATAB
+yin[3] => y[3].DATAB
+xsel => x[3].OUTPUTSELECT
+xsel => x[2].OUTPUTSELECT
+xsel => x[1].OUTPUTSELECT
+xsel => x[0].OUTPUTSELECT
+ysel => y[3].OUTPUTSELECT
+ysel => y[2].OUTPUTSELECT
+ysel => y[1].OUTPUTSELECT
+ysel => y[0].OUTPUTSELECT
+xld => xreg[3].ENA
+xld => xreg[2].ENA
+xld => xreg[1].ENA
+xld => xreg[0].ENA
+yld => yreg[3].ENA
+yld => yreg[2].ENA
+yld => yreg[1].ENA
+yld => yreg[0].ENA
+gld => gcdreg[0]~reg0.ENA
+gld => gcdreg[3]~reg0.ENA
+gld => gcdreg[2]~reg0.ENA
+gld => gcdreg[1]~reg0.ENA
+ltflag <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+eqflag <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+gcdreg[0] <= gcdreg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+gcdreg[1] <= gcdreg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+gcdreg[2] <= gcdreg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+gcdreg[3] <= gcdreg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|gcd|gcd_control:U2
+clk => pre_state~5.DATAIN
+rst_n => pre_state~9.DATAIN
+go => next_state.LOAD.DATAB
+go => next_state.START.DATAB
+ltflag => next_state.UPDATE_1.DATAB
+ltflag => next_state.UPDATE_2.DATAB
+eqflag => Selector0.IN3
+eqflag => next_state.JUDGE_2.DATAB
+xsel <= ysel~0.DB_MAX_OUTPUT_PORT_TYPE
+ysel <= ysel~0.DB_MAX_OUTPUT_PORT_TYPE
+xld <= xld~0.DB_MAX_OUTPUT_PORT_TYPE
+yld <= yld~0.DB_MAX_OUTPUT_PORT_TYPE
+gld <= gld~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

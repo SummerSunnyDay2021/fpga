@@ -1,0 +1,36 @@
+module btn_sig
+(
+	input wire clk,
+	input wire rst_n,
+	input wire [3:0] btn_in,
+	output wire btn_sig0,
+	output wire btn_sig1,
+	output wire btn_sig2,
+	output wire btn_sig3
+);
+
+//=============================
+	reg [3:0] L2H_F1;
+	reg [3:0] L2H_F2;
+//=============================
+
+	always @ (posedge clk or negedge rst_n)
+	begin
+		if(!rst_n)
+		begin
+			L2H_F1 <= 4'b0000;
+			L2H_F2 <= 4'b0000;
+		end
+		else
+		begin
+			L2H_F1 <= btn_in;
+			L2H_F2 <= L2H_F1;
+		end
+	end
+	
+	assign btn_sig0 = ~L2H_F1[0] & L2H_F2[0];
+	assign btn_sig1 = ~L2H_F1[1] & L2H_F2[1];
+	assign btn_sig2 = ~L2H_F1[2] & L2H_F2[2];
+	assign btn_sig3 = ~L2H_F1[3] & L2H_F2[3];
+	
+endmodule

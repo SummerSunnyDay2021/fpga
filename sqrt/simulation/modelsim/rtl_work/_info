@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/FPGA_Proj/sqrt/simulation/modelsim
+vcontrolunit
+Z1 !s110 1586741017
+!i10b 1
+!s100 @TM=JbDE?E;nFKK^:TZV[1
+IKA3MCWb<m_=`NT7n6KP:01
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1586740158
+8G:/FPGA_Proj/sqrt/rtl/controlunit.v
+FG:/FPGA_Proj/sqrt/rtl/controlunit.v
+L0 11
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1586741017.000000
+!s107 G:/FPGA_Proj/sqrt/rtl/controlunit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_Proj/sqrt/rtl|G:/FPGA_Proj/sqrt/rtl/controlunit.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+G:/FPGA_Proj/sqrt/rtl
+Z7 tCvgOpt 0
+vdatapath
+R1
+!i10b 1
+!s100 OL@k3L[D@6HVF7OcNoW_23
+IVWo_7;PKic=jhWjJA[aXE0
+R2
+R0
+w1586741006
+8G:/FPGA_Proj/sqrt/rtl/datapath.v
+FG:/FPGA_Proj/sqrt/rtl/datapath.v
+L0 14
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/FPGA_Proj/sqrt/rtl/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_Proj/sqrt/rtl|G:/FPGA_Proj/sqrt/rtl/datapath.v|
+!i113 1
+R5
+R6
+R7
+vsqrt
+!s110 1586741016
+!i10b 1
+!s100 c_]hK2=[i]eMJ6Mbz?TDd1
+IYG3DogC;6BiWaSIRTWQnT3
+R2
+R0
+w1586740457
+8G:/FPGA_Proj/sqrt/rtl/sqrt.v
+FG:/FPGA_Proj/sqrt/rtl/sqrt.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586741016.000000
+!s107 G:/FPGA_Proj/sqrt/rtl/sqrt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_Proj/sqrt/rtl|G:/FPGA_Proj/sqrt/rtl/sqrt.v|
+!i113 1
+R5
+R6
+R7
+vsqrt_test
+R1
+!i10b 1
+!s100 0oj_PX]l<Adg]PZ5GlXZD0
+IVdJ^z>^Pg0I=@EJ6[<0<c0
+R2
+R0
+w1586740801
+8G:/FPGA_Proj/sqrt/simulation/modelsim/sqrt.vt
+FG:/FPGA_Proj/sqrt/simulation/modelsim/sqrt.vt
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/FPGA_Proj/sqrt/simulation/modelsim/sqrt.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_Proj/sqrt/simulation/modelsim|G:/FPGA_Proj/sqrt/simulation/modelsim/sqrt.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+G:/FPGA_Proj/sqrt/simulation/modelsim
+R7

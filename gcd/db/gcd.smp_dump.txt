@@ -1,0 +1,10 @@
+
+State Machine - |gcd|gcd_control:U2|pre_state
+Name pre_state.UPDATE_2 pre_state.UPDATE_1 pre_state.JUDGE_2 pre_state.DONE pre_state.JUDGE_1 pre_state.LOAD pre_state.START 
+pre_state.START 0 0 0 0 0 0 0 
+pre_state.LOAD 0 0 0 0 0 1 1 
+pre_state.JUDGE_1 0 0 0 0 1 0 1 
+pre_state.DONE 0 0 0 1 0 0 1 
+pre_state.JUDGE_2 0 0 1 0 0 0 1 
+pre_state.UPDATE_1 0 1 0 0 0 0 1 
+pre_state.UPDATE_2 1 0 0 0 0 0 1 

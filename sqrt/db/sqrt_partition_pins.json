@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "root_reg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "root_reg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "root_reg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "root_reg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "root_reg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "root_reg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "root_reg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "go",
+					"strict" : false
+				},
+				{
+					"name" : "a[7]",
+					"strict" : false
+				},
+				{
+					"name" : "a[6]",
+					"strict" : false
+				},
+				{
+					"name" : "a[5]",
+					"strict" : false
+				},
+				{
+					"name" : "a[4]",
+					"strict" : false
+				},
+				{
+					"name" : "a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "a[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

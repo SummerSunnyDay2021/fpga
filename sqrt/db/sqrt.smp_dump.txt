@@ -1,0 +1,7 @@
+
+State Machine - |sqrt|controlunit:b2v_inst|pre_stage
+Name pre_stage.S2 pre_stage.S3 pre_stage.S1 pre_stage.S0 
+pre_stage.S0 0 0 0 0 
+pre_stage.S1 0 0 1 1 
+pre_stage.S3 0 1 0 1 
+pre_stage.S2 1 0 0 1 

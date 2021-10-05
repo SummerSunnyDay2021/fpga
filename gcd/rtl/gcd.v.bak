@@ -1,0 +1,52 @@
+module gcd(
+	input wire clk,
+	input wire rst_n,
+	input wire [3:0] xin,
+	input wire [3:0] yin,
+)
+//---------------------//
+
+	wire		xsel,
+	wire		ysel,
+	wire		xld,
+	wire		yld,
+	wire		gld,
+
+	wire		ltflag,
+	wire		eqflag,
+	wire [3:0]	gcdreg,
+
+//----------------------//
+gcd_datapath U1 (
+	.clk(clk),
+	.rst_n(rst_n),
+
+	.xin(xin),
+	.yin(yin),
+
+	.xsel(xsel),
+	.ysel(ysel),
+	.xld(xld),
+	.yld(yld),
+	.gld(gld),
+
+	.ltflag(ltflag),
+	.eqflag(eqflag),
+	.gcdreg(gcdreg)
+);
+
+gcd_control U2(
+	.clk(clk),
+	.rst_n(rst_n),
+
+	.ltflag(ltflag),
+	.eqflag(eqflag),
+
+	.xsel(xsel),
+	.ysel(ysel),
+	.xld(xld),
+	.yld(yld),
+	.gld(gld)
+);
+
+endmodule

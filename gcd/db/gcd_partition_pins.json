@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "gcdreg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "gcdreg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gcdreg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gcdreg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "xin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "xin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "xin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "xin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "yin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "go",
+					"strict" : false
+				},
+				{
+					"name" : "yin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "yin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "yin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

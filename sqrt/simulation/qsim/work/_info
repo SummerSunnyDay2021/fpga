@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/FPGA_Proj/sqrt/simulation/qsim
+vhard_block
+Z1 !s110 1602419866
+!i10b 1
+!s100 =R?TgMSnJPYNXEDoVWQTV3
+ICU037_7LRR>X77LBI:4PP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1602419864
+Z4 8sqrt.vo
+Z5 Fsqrt.vo
+L0 1959
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1602419866.000000
+Z8 !s107 sqrt.vo|
+Z9 !s90 -work|work|sqrt.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vsqrt
+R1
+!i10b 1
+!s100 [FLIzYlED88kII<id;RgL0
+IzdZjRD4<Z<SfcMb[7c:^B2
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsqrt_vlg_vec_tst
+R1
+!i10b 1
+!s100 2DDj7X:aaQ:g^d642aOMk3
+I`jH7Q;4HbmKQz2dL5Xeng0
+R2
+R0
+w1602419863
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11

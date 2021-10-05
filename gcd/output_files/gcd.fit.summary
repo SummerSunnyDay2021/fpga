@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Aug 11 11:07:43 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : gcd
+Top-level Entity Name : gcd
+Family : Cyclone IV E
+Device : EP4CE6F17C8
+Timing Models : Final
+Total logic elements : 585 / 6,272 ( 9 % )
+    Total combinational functions : 448 / 6,272 ( 7 % )
+    Dedicated logic registers : 427 / 6,272 ( 7 % )
+Total registers : 427
+Total pins : 16 / 180 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 512 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
